@@ -1,18 +1,18 @@
 <!DOCTYPE html> 
 <html lang="en">
-  <title>CLOCK</title>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>CLOCK</title>
     <link rel="stylesheet" href="style.css">
-   
-    <style>
- html {
-  background: #474bff;
+</head>
+<style>
+html {
+background: #474bff;
 background: -webkit-linear-gradient(263deg, #474bff 0%, #bc48ff 100%);
 background: linear-gradient(263deg, #474bff 0%, #bc48ff 100%);
-  text-align: center;
-  font-size: 10px;
+text-align: center;
+font-size: 10px;
 }
 
 body {
@@ -35,8 +35,7 @@ body {
   border-radius: 50%;
   margin: 50px auto;
   position: relative;
-  padding: 2rem;
- 
+  padding: 2rem; 
 }
 
 .outer-clock-face {
@@ -45,8 +44,6 @@ body {
   height: 100%;
   border-radius: 100%;
   background: #282828;
-  
- 
   overflow: hidden;
 }
 
@@ -94,7 +91,7 @@ body {
 .outer-clock-face .marking.marking-four {
   -webkit-transform: rotate(150deg);
   -moz-transform: rotate(150deg);
-  transform: rotate(150deg)
+  transform: rotate(150deg);
 }
 
 .inner-clock-face {
@@ -153,7 +150,7 @@ body {
   width: 45%;
   height: 2px;
 }
-    </style>
+</style>
 
 <body>
   
@@ -198,6 +195,5 @@ setInterval(setDate, 1000);
 
 setDate();
   </script>
-</head>
 </body>
 </html>
